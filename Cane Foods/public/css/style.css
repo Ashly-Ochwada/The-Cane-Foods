@@ -314,7 +314,6 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-mix-blend-mode: screen; */
 }
 
 .about .about-image img {
@@ -332,7 +331,6 @@ section {
   padding: 1rem;
   font-size: 4rem;
   font-weight: 700;
-  text-transform: capitalize;
   text-align: center;
 }
 
@@ -341,7 +339,6 @@ section {
   padding: 1rem;
   font-size: 1.6rem;
   line-height: 1.5;
-  text-transform: capitalize;
   text-align: left;
 }
 
@@ -352,7 +349,7 @@ section {
 .menu {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr) ;
       grid-template-columns: repeat(12, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -442,7 +439,6 @@ section {
   padding: 1rem;
   font-size: 1.6rem;
   line-height: 1.5;
-  text-transform: capitalize;
   text-align: left;
   padding: 0 4rem 0;
 }
